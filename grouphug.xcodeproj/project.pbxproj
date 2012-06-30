@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8DC1F57159F88E7003F6105 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DC1F56159F88E7003F6105 /* Cocoa.framework */; };
+		E8DC1F59159F88E7003F6105 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DC1F58159F88E7003F6105 /* MacRuby.framework */; };
+		E8DC1F62159F88E7003F6105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8DC1F60159F88E7003F6105 /* InfoPlist.strings */; };
+		E8DC1F64159F88E7003F6105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC1F63159F88E7003F6105 /* main.m */; };
+		E8DC1F69159F88E8003F6105 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DC1F67159F88E8003F6105 /* MainMenu.xib */; };
+		E8DC1F6C159F88E8003F6105 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8DC1F6B159F88E8003F6105 /* rb_main.rb */; };
+		E8DC1F6E159F88E8003F6105 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8DC1F6D159F88E8003F6105 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8DC1F5B159F88E7003F6105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8DC1F49159F88E7003F6105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8DC1F51159F88E7003F6105;
+			remoteInfo = grouphug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8DC1F52159F88E7003F6105 /* grouphug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grouphug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DC1F56159F88E7003F6105 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E8DC1F58159F88E7003F6105 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		E8DC1F5F159F88E7003F6105 /* grouphug-Info.plist */ = {isa = PBXFileReference; path = "grouphug-Info.plist"; sourceTree = "<group>"; };
+		E8DC1F61159F88E7003F6105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8DC1F63159F88E7003F6105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8DC1F65159F88E7003F6105 /* grouphug-Prefix.pch */ = {isa = PBXFileReference; path = "grouphug-Prefix.pch"; sourceTree = "<group>"; };
+		E8DC1F68159F88E8003F6105 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E8DC1F6B159F88E8003F6105 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		E8DC1F6D159F88E8003F6105 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DC1F4F159F88E7003F6105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DC1F57159F88E7003F6105 /* Cocoa.framework in Frameworks */,
+				E8DC1F59159F88E7003F6105 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8DC1F47159F88E7003F6105 = {
+			isa = PBXGroup;
+			children = (
+				E8DC1F5D159F88E7003F6105 /* grouphug */,
+				E8DC1F55159F88E7003F6105 /* Frameworks */,
+				E8DC1F53159F88E7003F6105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8DC1F53159F88E7003F6105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC1F52159F88E7003F6105 /* grouphug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8DC1F55159F88E7003F6105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC1F56159F88E7003F6105 /* Cocoa.framework */,
+				E8DC1F58159F88E7003F6105 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8DC1F5D159F88E7003F6105 /* grouphug */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC1F6D159F88E8003F6105 /* AppDelegate.rb */,
+				E8DC1F66159F88E8003F6105 /* Resources */,
+				E8DC1F6A159F88E8003F6105 /* Other Sources */,
+				E8DC1F5E159F88E7003F6105 /* Supporting Files */,
+			);
+			path = grouphug;
+			sourceTree = "<group>";
+		};
+		E8DC1F5E159F88E7003F6105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC1F5F159F88E7003F6105 /* grouphug-Info.plist */,
+				E8DC1F60159F88E7003F6105 /* InfoPlist.strings */,
+				E8DC1F63159F88E7003F6105 /* main.m */,
+				E8DC1F65159F88E7003F6105 /* grouphug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8DC1F66159F88E8003F6105 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC1F67159F88E8003F6105 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E8DC1F6A159F88E8003F6105 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC1F6B159F88E8003F6105 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E8DC1F5A159F88E7003F6105 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = E8DC1F74159F88E8003F6105 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				E8DC1F5C159F88E7003F6105 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		E8DC1F51159F88E7003F6105 /* grouphug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DC1F71159F88E8003F6105 /* Build configuration list for PBXNativeTarget "grouphug" */;
+			buildPhases = (
+				E8DC1F4E159F88E7003F6105 /* Sources */,
+				E8DC1F4F159F88E7003F6105 /* Frameworks */,
+				E8DC1F50159F88E7003F6105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grouphug;
+			productName = grouphug;
+			productReference = E8DC1F52159F88E7003F6105 /* grouphug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8DC1F49159F88E7003F6105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Finalist IT Group";
+			};
+			buildConfigurationList = E8DC1F4C159F88E7003F6105 /* Build configuration list for PBXProject "grouphug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8DC1F47159F88E7003F6105;
+			productRefGroup = E8DC1F53159F88E7003F6105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8DC1F51159F88E7003F6105 /* grouphug */,
+				E8DC1F5A159F88E7003F6105 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8DC1F50159F88E7003F6105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DC1F62159F88E7003F6105 /* InfoPlist.strings in Resources */,
+				E8DC1F69159F88E8003F6105 /* MainMenu.xib in Resources */,
+				E8DC1F6C159F88E8003F6105 /* rb_main.rb in Resources */,
+				E8DC1F6E159F88E8003F6105 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8DC1F4E159F88E7003F6105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DC1F64159F88E7003F6105 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8DC1F5C159F88E7003F6105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8DC1F51159F88E7003F6105 /* grouphug */;
+			targetProxy = E8DC1F5B159F88E7003F6105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8DC1F60159F88E7003F6105 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DC1F61159F88E7003F6105 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E8DC1F67159F88E8003F6105 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DC1F68159F88E8003F6105 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8DC1F6F159F88E8003F6105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E8DC1F70159F88E8003F6105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E8DC1F72159F88E8003F6105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "grouphug/grouphug-Prefix.pch";
+				INFOPLIST_FILE = "grouphug/grouphug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E8DC1F73159F88E8003F6105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "grouphug/grouphug-Prefix.pch";
+				INFOPLIST_FILE = "grouphug/grouphug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E8DC1F75159F88E8003F6105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E8DC1F76159F88E8003F6105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8DC1F4C159F88E7003F6105 /* Build configuration list for PBXProject "grouphug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DC1F6F159F88E8003F6105 /* Debug */,
+				E8DC1F70159F88E8003F6105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DC1F71159F88E8003F6105 /* Build configuration list for PBXNativeTarget "grouphug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DC1F72159F88E8003F6105 /* Debug */,
+				E8DC1F73159F88E8003F6105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8DC1F74159F88E8003F6105 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DC1F75159F88E8003F6105 /* Debug */,
+				E8DC1F76159F88E8003F6105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8DC1F49159F88E7003F6105 /* Project object */;
+}
