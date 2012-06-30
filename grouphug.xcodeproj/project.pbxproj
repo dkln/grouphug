@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8300DCF159F897800001286 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DC1F58159F88E7003F6105 /* MacRuby.framework */; };
+		E8640D2E159F8AB4002A7C92 /* LoginWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8640D2D159F8AB4002A7C92 /* LoginWindowController.rb */; };
 		E8DC1F57159F88E7003F6105 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DC1F56159F88E7003F6105 /* Cocoa.framework */; };
-		E8DC1F59159F88E7003F6105 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DC1F58159F88E7003F6105 /* MacRuby.framework */; };
 		E8DC1F62159F88E7003F6105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8DC1F60159F88E7003F6105 /* InfoPlist.strings */; };
 		E8DC1F64159F88E7003F6105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC1F63159F88E7003F6105 /* main.m */; };
 		E8DC1F69159F88E8003F6105 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DC1F67159F88E8003F6105 /* MainMenu.xib */; };
 		E8DC1F6C159F88E8003F6105 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8DC1F6B159F88E8003F6105 /* rb_main.rb */; };
-		E8DC1F6E159F88E8003F6105 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8DC1F6D159F88E8003F6105 /* AppDelegate.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8640D2D159F8AB4002A7C92 /* LoginWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = LoginWindowController.rb; sourceTree = "<group>"; };
 		E8DC1F52159F88E7003F6105 /* grouphug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grouphug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DC1F56159F88E7003F6105 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E8DC1F58159F88E7003F6105 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		E8DC1F5F159F88E7003F6105 /* grouphug-Info.plist */ = {isa = PBXFileReference; path = "grouphug-Info.plist"; sourceTree = "<group>"; };
+		E8DC1F5F159F88E7003F6105 /* grouphug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "grouphug-Info.plist"; sourceTree = "<group>"; };
 		E8DC1F61159F88E7003F6105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8DC1F63159F88E7003F6105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E8DC1F65159F88E7003F6105 /* grouphug-Prefix.pch */ = {isa = PBXFileReference; path = "grouphug-Prefix.pch"; sourceTree = "<group>"; };
+		E8DC1F65159F88E7003F6105 /* grouphug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "grouphug-Prefix.pch"; sourceTree = "<group>"; };
 		E8DC1F68159F88E8003F6105 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E8DC1F6B159F88E8003F6105 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		E8DC1F6D159F88E8003F6105 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8300DCF159F897800001286 /* MacRuby.framework in Frameworks */,
 				E8DC1F57159F88E7003F6105 /* Cocoa.framework in Frameworks */,
-				E8DC1F59159F88E7003F6105 /* MacRuby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		E8DC1F5D159F88E7003F6105 /* grouphug */ = {
 			isa = PBXGroup;
 			children = (
-				E8DC1F6D159F88E8003F6105 /* AppDelegate.rb */,
+				E8640D2D159F8AB4002A7C92 /* LoginWindowController.rb */,
 				E8DC1F66159F88E8003F6105 /* Resources */,
 				E8DC1F6A159F88E8003F6105 /* Other Sources */,
 				E8DC1F5E159F88E7003F6105 /* Supporting Files */,
@@ -188,7 +188,7 @@
 				E8DC1F62159F88E7003F6105 /* InfoPlist.strings in Resources */,
 				E8DC1F69159F88E8003F6105 /* MainMenu.xib in Resources */,
 				E8DC1F6C159F88E8003F6105 /* rb_main.rb in Resources */,
-				E8DC1F6E159F88E8003F6105 /* AppDelegate.rb in Resources */,
+				E8640D2E159F8AB4002A7C92 /* LoginWindowController.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +343,7 @@
 				E8DC1F73159F88E8003F6105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8DC1F74159F88E8003F6105 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -351,6 +352,7 @@
 				E8DC1F76159F88E8003F6105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

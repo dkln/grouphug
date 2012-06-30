@@ -3,7 +3,7 @@
 //  grouphug
 //
 //  Created by Diederick Lawson on 6/30/12.
-//  Copyright (c) 2012 Finalist IT Group. All rights reserved.
+//  Copyright (c) 2012 Altovista. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
